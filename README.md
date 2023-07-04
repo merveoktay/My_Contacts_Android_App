@@ -11,6 +11,9 @@ It is an android application where the user can add new contacts by entering the
 <br/>
 <br/>
 
-| All Contacts | Add Contact | Category | Detail |
-| ------------- | ------------- | ------------- | ------------- |
-| ![All Contacts](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/all.png) | ![Add Contact](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/save.png) | ![Category](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/menu.png) | ![Detail](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/detail.png) |
+| All Contacts | Add Contact |
+| ------------- | ------------- |
+| ![All Contacts](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/all.png) | ![Add Contact](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/save.png) |
+| Category | Detail |
+| ------------- | ------------- |
+| ![Category](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/menu.png) | ![Detail](https://github.com/merveoktay/My_Contacts_Android_App/blob/master/detail.png) |
