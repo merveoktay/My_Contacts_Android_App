@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddContacts">
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/add_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddGroup" />
+
+    <EditText
+        android:id="@+id/editTextDetailName"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="@string/name"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDetailSurname"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/surname"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDetailName"
+        app:layout_constraintStart_toStartOf="@+id/editTextDetailName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDetailName"
+        android:autofillHints="@string/surname" />
+
+    <EditText
+        android:id="@+id/editTextDetailPhone"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="@string/phone"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDetailSurname"
+        app:layout_constraintStart_toStartOf="@+id/editTextDetailSurname"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDetailSurname" />
+
+    <EditText
+        android:id="@+id/editTextDetailAddress"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDetailPhone"
+        app:layout_constraintStart_toStartOf="@+id/editTextDetailPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDetailPhone"
+        android:autofillHints="@string/address" />
+
+    <EditText
+        android:id="@+id/editTextDetailMail"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:inputType="text|textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDetailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editTextDetailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDetailAddress" />
+
+    <Button
+        android:id="@+id/buttonAddGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Select Group"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDetailMail"
+        app:layout_constraintStart_toStartOf="@+id/editTextDetailMail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDetailMail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

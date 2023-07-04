@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_contacts"
+            android:icon="@drawable/all_contacts_icon"
+            android:title="@string/menu_all_contacts" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/family_icon"
+            android:title="@string/menu_family" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends_icon"
+            android:title="@string/menu_friends" />
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/school_icon"
+            android:title="@string/menu_school" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/bussiness_icon"
+            android:title="@string/menu_work" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/course_icon"
+            android:title="@string/menu_course" />
+    </group>
+</menu>

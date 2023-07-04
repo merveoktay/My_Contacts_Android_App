@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.family.FamilyFragment">
+
+    <EditText
+        android:id="@+id/editTextFamilySearch"
+        android:layout_width="248dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="@string/search"
+        android:ems="10"
+        android:hint="@string/search"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listViewFamily"
+        android:layout_width="375dp"
+        android:layout_height="483dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFamilySearch"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/family_color"
+        android:text="SEARCH"
+        android:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextFamilySearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextFamilySearch"
+        app:layout_constraintTop_toTopOf="@+id/editTextFamilySearch"
+        app:rippleColor="@color/family_color" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

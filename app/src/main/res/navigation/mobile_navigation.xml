@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_all_contacts">
+
+    <fragment
+        android:id="@+id/nav_all_contacts"
+        android:name="com.example.mycontacts.ui.all_contacts.AllContactsFragment"
+        android:label="@string/menu_all_contacts"
+        tools:layout="@layout/fragment_all_contacts" />
+
+    <fragment
+        android:id="@+id/nav_family"
+        android:name="com.example.mycontacts.ui.family.FamilyFragment"
+        android:label="@string/menu_family"
+        tools:layout="@layout/fragment_family" />
+
+    <fragment
+        android:id="@+id/nav_friends"
+        android:name="com.example.mycontacts.ui.friends.FriendsFragment"
+        android:label="@string/menu_friends"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/nav_school"
+        android:name="com.example.mycontacts.ui.school.SchoolFragment"
+        android:label="@string/menu_school"
+        tools:layout="@layout/fragment_school" />
+    <fragment
+        android:id="@+id/nav_work"
+        android:name="com.example.mycontacts.ui.work.WorkFragment"
+        android:label="@string/menu_work"
+        tools:layout="@layout/fragment_work" />
+    <fragment
+        android:id="@+id/nav_course"
+        android:name="com.example.mycontacts.ui.course.CourseFragment"
+        android:label="@string/menu_course"
+        tools:layout="@layout/fragment_course" />
+</navigation>
